@@ -92,7 +92,7 @@ public class EmbeddingsCharNormalizer implements CharSequenceNormalizer {
       }
       newText.append(normalizeToken(token));
     }
-    log.info("normalized '{}' into '{}'", text, newText);
+    log.info("normalized\n'{}'\n into \n'{}'", text, newText);
     return newText;
   }
 

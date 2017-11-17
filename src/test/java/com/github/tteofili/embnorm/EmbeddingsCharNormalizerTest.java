@@ -78,10 +78,8 @@ public class EmbeddingsCharNormalizerTest {
         {50, 2, 1, 2, 0.6},
         {50, 2, 2, 3, 0.7},
         {50, 2, 3, 4, 0.8},
-        {50, 2, 3, 5, 0.9},
     });
   }
-
 
   @Test
   public void testNormalize() throws Exception {
